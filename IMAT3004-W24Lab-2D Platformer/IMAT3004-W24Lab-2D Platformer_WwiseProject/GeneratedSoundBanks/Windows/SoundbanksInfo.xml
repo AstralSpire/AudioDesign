@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="FootSteps">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2637588553" Name="Tile"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{58F52EC2-DB01-80D8-F7B5-0450CB4A3D11}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="357087735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Tile\FS_Tile_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Tile/FS_Tile_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="382666422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Tile\FS_Tile_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Tile/FS_Tile_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="435284224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Concrete\FS_Concrete_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Concrete/FS_Concrete_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="714441491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Concrete\FS_Concrete_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Concrete/FS_Concrete_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="730170244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Tile\FS_Tile_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Tile/FS_Tile_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="756706379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Audio\Collectable.wav</ShortName>
+					<CachePath>SFX/Audio/Collectable_10C4C929.wem</CachePath>
+				</File>
+				<File Id="784563690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Concrete\FS_Concrete_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Concrete/FS_Concrete_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="FootSteps" DurationType="OneShot" DurationMin="0.3781976" DurationMax="0.7190703">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="435284224"/>
+								<MediaRef Id="714441491"/>
+								<MediaRef Id="784563690"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="357087735"/>
+								<MediaRef Id="382666422"/>
+								<MediaRef Id="730170244"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2424489344" Name="Play_Collectable" DurationType="OneShot" DurationMin="0.77954644" DurationMax="0.8750113">
+					<MediaRefs>
+						<MediaRef Id="756706379"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="FootSteps">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="2637588553" Name="Tile"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{94427ABD-C2D6-D74E-9EB5-48DAD5911CB4}</FileHash>
+</SoundBanksInfo>

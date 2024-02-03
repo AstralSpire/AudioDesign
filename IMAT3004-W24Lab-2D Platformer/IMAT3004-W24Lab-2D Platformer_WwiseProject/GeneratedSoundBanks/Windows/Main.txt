@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2385628198	FootSteps			\Default Work Unit\FootSteps	
+	2424489344	Play_Collectable			\Default Work Unit\Play_Collectable	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	FootSteps			\Default Work Unit\FootSteps	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	FootSteps			
+	2637588553	Tile	FootSteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	357087735	FS_Tile_03	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-W24Lab-2D Platformer\IMAT3004-W24Lab-2D Platformer_WwiseProject\.cache\Windows\SFX\Footsteps\Tile\FS_Tile_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_03		58572
+	382666422	FS_Tile_01	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-W24Lab-2D Platformer\IMAT3004-W24Lab-2D Platformer_WwiseProject\.cache\Windows\SFX\Footsteps\Tile\FS_Tile_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_01		37538
+	435284224	FS_Concrete_03	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-W24Lab-2D Platformer\IMAT3004-W24Lab-2D Platformer_WwiseProject\.cache\Windows\SFX\Footsteps\Concrete\FS_Concrete_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_03		63518
+	714441491	FS_Concrete_02	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-W24Lab-2D Platformer\IMAT3004-W24Lab-2D Platformer_WwiseProject\.cache\Windows\SFX\Footsteps\Concrete\FS_Concrete_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_02		55048
+	730170244	FS_Tile_02	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-W24Lab-2D Platformer\IMAT3004-W24Lab-2D Platformer_WwiseProject\.cache\Windows\SFX\Footsteps\Tile\FS_Tile_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Tile\FS_Tile_02		53700
+	756706379	Collectable	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-W24Lab-2D Platformer\IMAT3004-W24Lab-2D Platformer_WwiseProject\.cache\Windows\SFX\Audio\Collectable_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Audio\Collectable		154448
+	784563690	FS_Concrete_01	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-W24Lab-2D Platformer\IMAT3004-W24Lab-2D Platformer_WwiseProject\.cache\Windows\SFX\Footsteps\Concrete\FS_Concrete_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Concrete\FS_Concrete_01		42952
+

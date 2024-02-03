@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D05D8CBC-2A1A-4CA4-93FF-6ED46C7315FE}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D05D8CBC-2A1A-4CA4-93FF-6ED46C7315FE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Collectable" ID="{09A23394-9AB6-4B82-957F-33D1CD815C7E}">
+					<ChildrenList>
+						<Action Name="" ID="{3A2D1EAB-1F8B-4285-9759-83792671CAED}" ShortID="110660994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Collectable" ID="{F9212446-19BC-4603-BC4D-21F25440AE7E}" WorkUnitID="{9EF8DCCD-D3F3-40AC-814D-60DCF07633C1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FootSteps" ID="{7552B1A9-B7F9-4849-98C2-3CFF72589DD9}">
+					<ChildrenList>
+						<Action Name="" ID="{99F6C864-308B-4EFB-B1F1-29C29480CFD9}" ShortID="386427211">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{ABBB89A9-34E9-424E-9B14-2D028081A3C2}" WorkUnitID="{9EF8DCCD-D3F3-40AC-814D-60DCF07633C1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
