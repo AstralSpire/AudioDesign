@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Music\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11868544	Explore_Drums_120BPM4-4_L8	C:\Users\anjum\Documents\GitHub\AudioDesign\Lab3Dworld\IMAT3004-W2124Lab-MoreAudio\IMAT3004-W2124Lab-MoreAudio_WwiseProject\.cache\Mac\SFX\Explore_Drums_120BPM4-4_L8_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\Explore_Drums_120BPM4-4_L8\Explore_Drums_120BPM4-4_L8		705760
+	140439733	Explore_Vox1_120BPM4-4_L16	C:\Users\anjum\Documents\GitHub\AudioDesign\Lab3Dworld\IMAT3004-W2124Lab-MoreAudio\IMAT3004-W2124Lab-MoreAudio_WwiseProject\.cache\Mac\SFX\Explore_Vox1_120BPM4-4_L16_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\Explore_Vox1_120BPM4-4_L16\Explore_Vox1_120BPM4-4_L16		1411360
+	215039615	Explore_BassSynth_120BPM4-4_L8	C:\Users\anjum\Documents\GitHub\AudioDesign\Lab3Dworld\IMAT3004-W2124Lab-MoreAudio\IMAT3004-W2124Lab-MoreAudio_WwiseProject\.cache\Mac\SFX\Explore_BassSynth_120BPM4-4_L8_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\Explore_BassSynth_120BPM4-4_L8\Explore_BassSynth_120BPM4-4_L8		705760
+	657594996	Explore_Vox2_120BPM4-4_L16	C:\Users\anjum\Documents\GitHub\AudioDesign\Lab3Dworld\IMAT3004-W2124Lab-MoreAudio\IMAT3004-W2124Lab-MoreAudio_WwiseProject\.cache\Mac\SFX\Explore_Vox2_120BPM4-4_L16_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\Explore_Vox2_120BPM4-4_L16\Explore_Vox2_120BPM4-4_L16		1411360
+

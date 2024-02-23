@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="IMAT3004-W2124Lab-MoreAudio_WwiseProject" GUID="{0D1A9BB4-355B-42EA-AE04-3F5A7519704D}" Generator="2022.1.6.8263"/>
+	<CacheRoot>../../../../IMAT3004-W2124Lab-MoreAudio_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{4D01DCEB-FD91-426E-84E3-99356D73988D}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../IMAT3004-W2124Lab-MoreAudio_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{35F56C2F-5CC5-48FD-80A2-AEFF86DA29AD}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../IMAT3004-W2124Lab-MoreAudio_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{CC61D7DC-07F9-476A-A7B1-B9EE7B5EB05E}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{5E4954DC-A161-6455-19FF-23D852B4A252}</FileHash>
+</ProjectInfo>

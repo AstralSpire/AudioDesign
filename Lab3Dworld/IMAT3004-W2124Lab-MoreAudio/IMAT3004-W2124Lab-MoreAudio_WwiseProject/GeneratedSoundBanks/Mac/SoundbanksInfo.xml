@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F486DCB1-88DF-8027-FCD3-B1CA551ECBE9}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1588715066" Name="Echoes_Linear" LibName="Wwise Delay" LibId="6946819"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1588715066"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{97828FD5-BFA4-B3DF-A25D-415598FDB12A}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="11868544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore_Drums_120BPM4-4_L8.wav</ShortName>
+					<CachePath>SFX/Explore_Drums_120BPM4-4_L8_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="140439733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore_Vox1_120BPM4-4_L16.wav</ShortName>
+					<CachePath>SFX/Explore_Vox1_120BPM4-4_L16_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="215039615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore_BassSynth_120BPM4-4_L8.wav</ShortName>
+					<CachePath>SFX/Explore_BassSynth_120BPM4-4_L8_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="657594996" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore_Vox2_120BPM4-4_L16.wav</ShortName>
+					<CachePath>SFX/Explore_Vox2_120BPM4-4_L16_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3991942870" Name="Music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="11868544"/>
+						<MediaRef Id="140439733"/>
+						<MediaRef Id="215039615"/>
+						<MediaRef Id="657594996"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D3D72618-CBAA-6A4A-2ACC-28B433567FB0}</FileHash>
+</SoundBanksInfo>
