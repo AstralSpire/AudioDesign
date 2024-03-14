@@ -1,6 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{66DDBD8F-4BBF-4E67-8F93-B06ED8B23BDD}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{66DDBD8F-4BBF-4E67-8F93-B06ED8B23BDD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{66DDBD8F-4BBF-4E67-8F93-B06ED8B23BDD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="RocketThing" ID="{EC3E7FB1-426D-4868-B385-9D82C294E0DB}" ShortID="1054184415">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1635AA0-E662-4415-833D-4F177F979553}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AB33A3B-69DB-4638-AE5D-16B9701EED09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RocketThing" ID="{EC014806-E90F-48A9-BECC-7774EC518400}">
+							<Language>SFX</Language>
+							<AudioFile>RocketThing.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1046882899"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RocketThing" ID="{EC014806-E90F-48A9-BECC-7774EC518400}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GrassSteps" ID="{748BFA88-F11D-4E8F-9688-C503538F0732}" ShortID="501959972">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1635AA0-E662-4415-833D-4F177F979553}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AB33A3B-69DB-4638-AE5D-16B9701EED09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GrassSteps" ID="{050BF50B-93EC-49E6-B9F8-0ED46C850CA3}">
+							<Language>SFX</Language>
+							<AudioFile>GrassSteps.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="296011135"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GrassSteps" ID="{050BF50B-93EC-49E6-B9F8-0ED46C850CA3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HandDryer7" ID="{1FDCBD58-1368-4FA7-9A20-3A07CE7A429C}" ShortID="436664572">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1635AA0-E662-4415-833D-4F177F979553}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AB33A3B-69DB-4638-AE5D-16B9701EED09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HandDryer7" ID="{DFE7E08F-792B-4E24-A8FF-A894078E3D75}">
+							<Language>SFX</Language>
+							<AudioFile>HandDryer7.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="237627475"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HandDryer7" ID="{DFE7E08F-792B-4E24-A8FF-A894078E3D75}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RocketThing2" ID="{E933D7B6-6B04-44A5-BF08-002303D8C04F}" ShortID="759452028">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1635AA0-E662-4415-833D-4F177F979553}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AB33A3B-69DB-4638-AE5D-16B9701EED09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RocketThing2" ID="{A24782AA-987D-443B-AE47-524D6968934D}">
+							<Language>SFX</Language>
+							<AudioFile>RocketThing2.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="78852126"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RocketThing2" ID="{A24782AA-987D-443B-AE47-524D6968934D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HandDryer6" ID="{AD55FD9E-DC38-48C7-A453-0360B4979DDF}" ShortID="198229155">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1635AA0-E662-4415-833D-4F177F979553}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AB33A3B-69DB-4638-AE5D-16B9701EED09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HandDryer6" ID="{F5B66A9D-97A3-43F2-87EF-CD8D6EA33ECC}">
+							<Language>SFX</Language>
+							<AudioFile>HandDryer6.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="432646023"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HandDryer6" ID="{F5B66A9D-97A3-43F2-87EF-CD8D6EA33ECC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GrassSteps2" ID="{12FAFEB1-CAA9-4772-BF2E-96E198E2A3D0}" ShortID="569616796">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1635AA0-E662-4415-833D-4F177F979553}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AB33A3B-69DB-4638-AE5D-16B9701EED09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GrassSteps2" ID="{983A31DE-7E65-4F29-9EEB-8060F98F4CF5}">
+							<Language>SFX</Language>
+							<AudioFile>GrassSteps2.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="702310269"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GrassSteps2" ID="{983A31DE-7E65-4F29-9EEB-8060F98F4CF5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MetalSteps" ID="{D523A930-ACDD-4924-895C-9D1C464664CB}" ShortID="130808977">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1635AA0-E662-4415-833D-4F177F979553}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AB33A3B-69DB-4638-AE5D-16B9701EED09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MetalSteps" ID="{0B6CF01F-B182-449F-9B25-302CAAA1C8CF}">
+							<Language>SFX</Language>
+							<AudioFile>MetalSteps.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="567890210"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MetalSteps" ID="{0B6CF01F-B182-449F-9B25-302CAAA1C8CF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
