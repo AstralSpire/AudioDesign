@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	296011135	GrassSteps	G:\Projects\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\GrassSteps_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassSteps		877920
+	702310269	GrassSteps2	G:\Projects\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\GrassSteps2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassSteps2		937056
+

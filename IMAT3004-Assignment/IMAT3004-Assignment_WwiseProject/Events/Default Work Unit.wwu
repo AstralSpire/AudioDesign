@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EE23706A-01AC-4EAD-830C-69824E332EBF}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{EE23706A-01AC-4EAD-830C-69824E332EBF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EE23706A-01AC-4EAD-830C-69824E332EBF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{66CC137C-0731-4A52-9066-A3E9C057DC4E}">
+					<ChildrenList>
+						<Action Name="" ID="{3DE31C76-220A-43D2-B87F-D76845DDF5DF}" ShortID="421741944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GrassSteps" ID="{748BFA88-F11D-4E8F-9688-C503538F0732}" WorkUnitID="{66DDBD8F-4BBF-4E67-8F93-B06ED8B23BDD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FB527A00-4D1F-48CB-ADD7-C321D6C87690}" ShortID="1020890011">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GrassSteps2" ID="{12FAFEB1-CAA9-4772-BF2E-96E198E2A3D0}" WorkUnitID="{66DDBD8F-4BBF-4E67-8F93-B06ED8B23BDD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

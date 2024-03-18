@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="IMAT3004-Assignment_WwiseProject" GUID="{8FB67B28-0D73-4935-AED9-20745D292BB3}" Generator="2022.1.6.8263"/>
+	<CacheRoot>../../../../IMAT3004-Assignment_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{80C22E6C-F710-4E01-AB74-69565B877761}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../IMAT3004-Assignment_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{F8E3F708-EA01-48F5-AD8A-431EF3A80C66}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../IMAT3004-Assignment_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F211C638-C264-4CE6-B764-E78FE42281D7}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{BA242D94-31B5-2598-6A77-7BDBC69C97B9}</FileHash>
+</ProjectInfo>

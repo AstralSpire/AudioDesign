@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3445346556" Type="User" Language="SFX" Hash="{09046543-4102-E0ED-1961-F7536F8B33F6}">
+			<ShortName>Bank1</ShortName>
+			<Path>Bank1.bnk</Path>
+			<Media>
+				<File Id="296011135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GrassSteps.WAV</ShortName>
+					<CachePath>SFX/GrassSteps_10C4C929.wem</CachePath>
+				</File>
+				<File Id="702310269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GrassSteps2.WAV</ShortName>
+					<CachePath>SFX/GrassSteps2_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="5.3115644" DurationMax="5.3115644">
+					<MediaRefs>
+						<MediaRef Id="296011135"/>
+						<MediaRef Id="702310269"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B022E2D3-641F-3F70-0DAA-5C2B0470EFC7}</FileHash>
+</SoundBanksInfo>
