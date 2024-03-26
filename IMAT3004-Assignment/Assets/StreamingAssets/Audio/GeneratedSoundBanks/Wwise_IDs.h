@@ -13,8 +13,23 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID GUN = 915214409U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 2385628198U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPS
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

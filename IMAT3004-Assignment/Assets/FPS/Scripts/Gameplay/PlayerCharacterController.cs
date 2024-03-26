@@ -352,6 +352,7 @@ namespace Unity.FPS.Gameplay
                     if (m_FootstepDistanceCounter >= 1f / chosenFootstepSfxFrequency)
                     {
                         m_FootstepDistanceCounter = 0f;
+                        AkSoundEngine.PostEvent("Play_Footsteps", gameObject);
                         AudioSource.PlayOneShot(FootstepSfx);
                     }
 

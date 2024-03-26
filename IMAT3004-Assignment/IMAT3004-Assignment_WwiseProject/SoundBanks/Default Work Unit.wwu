@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Bank1" ID="{278FA07B-A16E-409C-B0E6-221E37C444AD}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Footsteps" ID="{66CC137C-0731-4A52-9066-A3E9C057DC4E}" WorkUnitID="{EE23706A-01AC-4EAD-830C-69824E332EBF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{F4E97B2E-397F-4B20-B7EF-C968BDCAB959}" WorkUnitID="{EE23706A-01AC-4EAD-830C-69824E332EBF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gun" ID="{8A9F5E68-42AA-4B3E-8403-0C059211CB67}" WorkUnitID="{EE23706A-01AC-4EAD-830C-69824E332EBF}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

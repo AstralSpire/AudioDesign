@@ -21,6 +21,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Gun" ID="{8A9F5E68-42AA-4B3E-8403-0C059211CB67}">
+					<ChildrenList>
+						<Action Name="" ID="{08FBB5E3-6AF6-4F2B-8157-DF2D70879BD1}" ShortID="169573951">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="laser-gun-81720" ID="{97B0D173-6248-4A26-99AD-0591CC2E7161}" WorkUnitID="{66DDBD8F-4BBF-4E67-8F93-B06ED8B23BDD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{F4E97B2E-397F-4B20-B7EF-C968BDCAB959}">
+					<ChildrenList>
+						<Action Name="" ID="{36F9159C-1F0B-4E19-8FC5-65BC726A3C02}" ShortID="507978557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{DFAA1DB3-B92B-4CDD-881D-D665860E53DE}" WorkUnitID="{66DDBD8F-4BBF-4E67-8F93-B06ED8B23BDD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

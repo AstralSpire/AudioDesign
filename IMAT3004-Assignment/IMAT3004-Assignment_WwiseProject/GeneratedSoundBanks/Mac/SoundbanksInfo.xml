@@ -21,29 +21,97 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3445346556" Type="User" Language="SFX" Hash="{09046543-4102-E0ED-1961-F7536F8B33F6}">
+		<SoundBank Id="3445346556" Type="User" Language="SFX" Hash="{089B8524-2FD5-9908-406F-5DD8CFA7B12F}">
 			<ShortName>Bank1</ShortName>
 			<Path>Bank1.bnk</Path>
 			<Media>
-				<File Id="296011135" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>GrassSteps.WAV</ShortName>
-					<CachePath>SFX/GrassSteps_10C4C929.wem</CachePath>
+				<File Id="338974003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step4.wav</ShortName>
+					<CachePath>SFX/Steps/Step4_10C4C929.wem</CachePath>
 				</File>
-				<File Id="702310269" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>GrassSteps2.WAV</ShortName>
-					<CachePath>SFX/GrassSteps2_10C4C929.wem</CachePath>
+				<File Id="551750914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>laser-gun-81720.wav</ShortName>
+					<CachePath>SFX/laser-gun-81720_10C4C929.wem</CachePath>
+				</File>
+				<File Id="579041982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step7.wav</ShortName>
+					<CachePath>SFX/Steps/Step7_10C4C929.wem</CachePath>
+				</File>
+				<File Id="645335445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step10.wav</ShortName>
+					<CachePath>SFX/Steps/Step10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="721069023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step6.wav</ShortName>
+					<CachePath>SFX/Steps/Step6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="815961945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step8.wav</ShortName>
+					<CachePath>SFX/Steps/Step8_10C4C929.wem</CachePath>
+				</File>
+				<File Id="907971596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step9.wav</ShortName>
+					<CachePath>SFX/Steps/Step9_10C4C929.wem</CachePath>
+				</File>
+				<File Id="931214435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step1.wav</ShortName>
+					<CachePath>SFX/Steps/Step1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943135236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step5.wav</ShortName>
+					<CachePath>SFX/Steps/Step5_10C4C929.wem</CachePath>
+				</File>
+				<File Id="958346644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step2.wav</ShortName>
+					<CachePath>SFX/Steps/Step2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1013083035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Steps\Step3.wav</ShortName>
+					<CachePath>SFX/Steps/Step3_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2385628198" Name="Footsteps" DurationType="OneShot" DurationMin="5.3115644" DurationMax="5.3115644">
+				<Event Id="915214409" Name="Gun" DurationType="OneShot" DurationMin="2.136" DurationMax="2.136">
 					<MediaRefs>
-						<MediaRef Id="296011135"/>
-						<MediaRef Id="702310269"/>
+						<MediaRef Id="551750914"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" DurationType="OneShot" DurationMin="0.12340996" DurationMax="0.30426532">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="338974003"/>
+								<MediaRef Id="579041982"/>
+								<MediaRef Id="645335445"/>
+								<MediaRef Id="721069023"/>
+								<MediaRef Id="815961945"/>
+								<MediaRef Id="907971596"/>
+								<MediaRef Id="931214435"/>
+								<MediaRef Id="943135236"/>
+								<MediaRef Id="958346644"/>
+								<MediaRef Id="1013083035"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{67780EEF-4422-6848-2836-137C421685FD}</FileHash>
+	<FileHash>{11C337FF-F06F-DB4F-A327-3FF701915A15}</FileHash>
 </SoundBanksInfo>

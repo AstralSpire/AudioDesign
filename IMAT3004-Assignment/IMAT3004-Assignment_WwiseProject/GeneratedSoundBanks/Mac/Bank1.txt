@@ -1,7 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
+	915214409	Gun			\Default Work Unit\Gun	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 
+Switch	ID	Name	Switch Group			Notes
+	4248645337	Grass	Footsteps			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	296011135	GrassSteps	G:\Projects\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\GrassSteps_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassSteps		877920
-	702310269	GrassSteps2	G:\Projects\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\GrassSteps2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrassSteps2		937056
+	338974003	Step4	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step4		35104
+	551750914	laser-gun-81720	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\laser-gun-81720_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\laser-gun-81720		205152
+	579041982	Step7	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step7		23160
+	645335445	Step10	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step10		27692
+	721069023	Step6	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step6		34692
+	815961945	Step8	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step8		29752
+	907971596	Step9	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step9		29340
+	931214435	Step1	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step1		50756
+	943135236	Step5	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step5		25632
+	958346644	Step2	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step2		36752
+	1013083035	Step3	C:\Users\anjum\Documents\GitHub\AudioDesign\IMAT3004-Assignment\IMAT3004-Assignment_WwiseProject\.cache\Mac\SFX\Steps\Step3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Steps\Step3		32220
 
