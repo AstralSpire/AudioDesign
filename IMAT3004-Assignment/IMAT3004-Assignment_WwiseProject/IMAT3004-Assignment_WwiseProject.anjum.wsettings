@@ -23,12 +23,12 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="bC7CgBD3AU6rdGlWW4d3YQj34/gB6vVIrYpDHvOoDGY="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="eRWE6Vc0UUKFV9tq3j+zzwEAr+AkAAAAwJQq0ft/AAAIkghiDAIAAAAAAAAMAgAAwJQq0ft/AAA0lPKc+38AAKAm0W4MAgAAAAAAAAwCAAAIAAAADAIAAHjhr+AkAAAAkBAHnft/AACvEQed+38AAJAQB537fwAAwJQq0ft/AADAlCrR+38AAAiSCGIMAgAAAQAAAKD+j/ZFXqxAsvxC5ib4U8wBAK/gJAAAAMCUKtH7fwAACJIIYgwCAAAAAAAADAIAAMCUKtH7fwAANJTynPt/AACgJtFuDAIAAAAAAAAMAgAACAAAAAwCAAB44a/gJAAAAJAQB537fwAArxEHnft/AACQEAed+38AAMCUKtH7fwAAwJQq0ft/AAAIkghiDAIAAAEAAAA="/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="oP6P9kVerECy/ELmJvhTzAEA8v7PAAAAwJTc+/t/AAA4JZ8g+gEAAAAAAAD6AQAAwJTc+/t/AAA0lDr8+38AANC59Cn6AQAAAAAAAPoBAAAIAAAA+gEAAHjo8v7PAAAAkBBP/Pt/AACvEU/8+38AAJAQT/z7fwAAwJTc+/t/AADAlNz7+38AADglnyD6AQAAAQAAAHkVhOlXNFFChVfbat4/s88BAPL+zwAAAMCU3Pv7fwAAOCWfIPoBAAAAAAAA+gEAAMCU3Pv7fwAANJQ6/Pt/AADQufQp+gEAAAAAAAD6AQAACAAAAPoBAAB46PL+zwAAAJAQT/z7fwAArxFP/Pt/AACQEE/8+38AAMCU3Pv7fwAAwJTc+/t/AAA4JZ8g+gEAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
